@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<input type="text" [(ngModel)]="strg">
+
+<button (click)="upperCase()">upper</button>
+<button (click)="lowerCase()">lower</button>
+<button (click)="percentage()">percent</button>
+<button (click)="currency()">currency</button>
+<button (click)="slicing()">slice</button>
+
+
+<h2>{{ strg | uppercase }}</h2>
+<h2>{{ strg | lowercase }}</h2>
+<h2>{{ strg | percent }}</h2>
+<h2>{{ strg | currency }}</h2>
+<h2>{{ strg | slice:0:3 }}</h2>

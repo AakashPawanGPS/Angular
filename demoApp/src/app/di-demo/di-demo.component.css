@@ -1,0 +1,9 @@
+:host{
+    text-align: center;
+    color: red;
+}
+.container{
+    color: rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+}
